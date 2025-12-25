@@ -1,45 +1,6 @@
-.rnd-box{
-    display: block;
-}
-
-.nav-left{
-    min-width:fit-content ;
-}
-
+/* Mobile adjustments if needed */
 @media screen and (max-width:500px) {
-    .rnd-box{
-        display: none;
-    }
-    .home-right {
-        display: none;
-        /* width: 100%; */
-    }
-    /* .home-right img{
-        width: 100%;
-    } */
-    /* .home-body{
-        flex-direction: column-reverse !important;
-    } */
-    .home-left{
-        width: 90% !important;
-    }
-
-    .home{
-        width: 95%;
-    }
-    .home-wrapper{
-        border-radius: 20px;
-        border-top-left-radius: 0%;
-    }
-    .nav-left{
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        padding:16px 24px;
-    }
-    .nav-left div div{
-        border-bottom-left-radius: 20px;
-    }
-
+    /* Minimal adjustments can go here if needed */
 }
 
 @media screen and (max-width:900px) {

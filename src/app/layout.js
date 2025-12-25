@@ -12,13 +12,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`overflow-x-hidden`}>
       <body className="antialiased home-font ">
-        <div className="h-screen w-full flex justify-center items-center bg-[#0E1322] relative overflow-hidden">
-          <div className="home w-[90%] flex flex-col justify-center items-center h-full">
+        <div className="min-h-screen w-full bg-slate-50 text-slate-900">
             <Navbar />
-            <div className="h-[80%] home-wrapper w-full bg-[rgb(148,214,226)] rounded-[40px] rounded-tl-[0px]">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
               {children}
-            </div>
-          </div>
+            </main>
         </div>
 
         <Toaster position="bottom-right" reverseOrder={false} />
