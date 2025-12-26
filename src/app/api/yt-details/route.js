@@ -1,5 +1,7 @@
+export const runtime = "nodejs";
+
 const axios = require("axios");
-const natural = require("natural");
+const natural = require("natural/lib/natural");
 const sentiment = require("sentiment");
 const sentimentAnalyzer = new sentiment();
 const tokenizer = new natural.WordTokenizer();

@@ -64,10 +64,10 @@ export default function Page() {
       <div className="w-full max-w-md space-y-8">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl mb-4">
-            YT Comments Xpert
+            COMMENT ANALYZER
           </h1>
           <p className="text-lg text-gray-600">
-            Analyze YouTube comments with AI-powered sentiment analysis.
+            Analyze YouTube comments
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function Page() {
                   name="url"
                   value={url}
                   onChange={handleChange}
-                  placeholder="https://www.youtube.com/watch?v=..."
+                  placeholder="Enter url here "
                   type="text"
                   autoComplete="off"
                   required
@@ -115,29 +115,7 @@ export default function Page() {
             </div>
           </form>
 
-          <div className="mt-6">
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-gray-300" />
-              </div>
-              <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-white text-gray-500">
-                  Or check out
-                </span>
-              </div>
-            </div>
-
-            <div className="mt-6">
-              <Link
-                href="https://captionizer-star.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
-              >
-                Captionizer &rarr;
-              </Link>
-            </div>
-          </div>
+    
         </div>
       </div>
     </div>
